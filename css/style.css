@@ -1,41 +1,68 @@
-header{
+header {
     background-color: #fffbf0;
 }
-*{
+
+* {
     font-family: 'Roboto Slab', serif;
 }
-.be-pengu{
+
+.be-pengu {
     color: #fabe4c;
 }
-.jack-card img{
+
+.jack-card img {
     background-color: rgb(217, 219, 219);
     border-radius: 20px;
 }
-.buy-now{
+
+.product {
+    height: 350px;
+}
+
+.buy-now {
     background-color: #9bb439;
 }
 
-.jack-card{
+.jack-card {
     border-radius: 20px;
     border: none;
 }
-.price{
+
+.price {
     color: #fabe4c;
 }
-footer{
-    background-color:#f1f1f1;
+@media (max-width:768px) {
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading img{
+        width:400px;
+    }
+    .service img{
+        width: 350px;
+    }
+}
+
+
+footer {
+    background-color: #f1f1f1;
     height: 300px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-input{
+
+input {
     height: 100px;
     width: 250px;
     border-radius: 10px;
     margin: 30px 20px 0 0;
 }
-footer h6{
+
+footer h6 {
     text-align: center;
     margin-top: 60px;
 }
